@@ -70,7 +70,7 @@ resource "aws_security_group" "cali-LB01-sg443" {
 
   tags = {
     Name    = "ec2-cali-sg443"
-    Service = "application1"
+    Service = "jenkins"
     Owner   = "Blackneto"
     Planet  = "Taa"
   }
@@ -111,7 +111,7 @@ resource "aws_security_group" "ca_SL01-SG01-443" {
 
   tags = {
     Name    = "ca_SL01-SG01-443"
-    Service = "application1"
+    Service = "jenkins"
     Owner   = "Blackneto"
     Planet  = "Taa"
   }

@@ -9,7 +9,7 @@ resource "aws_subnet" "CA_SUBNET" {
   availability_zone = "us-west-1b"
   tags = {
     Name = "CA_SUBNET"
-    Service = "application1"
+    Service = "jenkins"
     Owner   = "Balactus"
     Planet  = "Taa"
   }
@@ -24,7 +24,7 @@ resource "aws_subnet" "cali-public-us-west-1b" {
 
   tags = {
     Name    = "cali-public-us-west-1b"
-    Service = "application1"
+    Service = "jenkins"
     Owner   = "Balactus"
     Planet  = "Taa"
   }
@@ -39,7 +39,7 @@ resource "aws_subnet" "cali-public-us-west-1c" {
 
   tags = {
     Name    = "cali-public-us-west-1b"
-    Service = "application1"
+    Service = "jenkins"
     Owner   = "Balactus"
     Planet  = "Taa"
   }
@@ -54,7 +54,7 @@ resource "aws_subnet" "cali-public-us-west-1c" {
 
   tags = {
     Name    = "cali-private-us-west-1b"
-    Service = "application1"
+    Service = "jenkins"
     Owner   = "Balactus"
     Planet  = "Taa"
   }
@@ -68,7 +68,7 @@ resource "aws_subnet" "cali-private-us-west-1c" {
 
   tags = {
     Name    = "cali-private-us-west-1b"
-    Service = "application1"
+    Service = "jenkins"
     Owner   = "Balactus"
     Planet  = "Taa"
   }

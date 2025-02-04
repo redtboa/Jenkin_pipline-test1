@@ -58,7 +58,7 @@ resource "aws_launch_template" "ec2-cali-80" {
     resource_type = "instance"
     tags = {
       Name    = "ec2-cali-80"
-      Service = "application1"
+      Service = "jenkins"
       Owner   = "Blackneto"
       Planet  = "Taa"
     }
@@ -130,7 +130,7 @@ resource "aws_launch_template" "ec2-cali-443" {
     resource_type = "instance"
     tags = {
       Name    = "cali-SysLog-443"
-      Service = "application1"
+      Service = "jenkins"
       Owner   = "Blackneto"
       Planet  = "Taa"
     }
